@@ -18,6 +18,11 @@ a {
   text-decoration: none;
 }
 
+img {
+  width: 100%;
+  display: block;
+}
+
 @font-face {
   font-family: "Futura Bk BT";
   src: url("/fonts/FuturaBookBT.ttf") format("truetype");
@@ -65,7 +70,8 @@ a {
   justify-content: space-between;
   align-items: center;
 }
-.header .header__menu ul li {
+.header .header__menu ul a {
+  color: #222;
   font-family: Merriweather;
   font-size: 16px;
   font-style: normal;
@@ -74,15 +80,10 @@ a {
   letter-spacing: 0.48px;
   text-transform: uppercase;
 }
-.header .header__menu ul li a {
-  color: #222;
-}
 .header .header__menu img {
   margin: 0 54px;
   width: 25px;
   height: 14px;
-  flex-shrink: 0;
-  fill: #222;
 }
 .header .header__content {
   height: 100%;
@@ -113,4 +114,77 @@ a {
   font-weight: 400;
   line-height: 48px; /* 133.333% */
   padding-bottom: 186px;
+}
+
+.container {
+  width: 1400px;
+  margin: 0 auto;
+}
+.container .card__contents {
+  margin-top: 113px;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+}
+.container .card__contents .card {
+  width: 443px;
+  height: 633px;
+  margin-bottom: 58px;
+}
+.container .card__contents .card:nth-child(2) {
+  margin: 0 36px;
+}
+.container .card__contents .card:nth-child(5) {
+  margin: 0 36px;
+}
+.container .card__contents .card img {
+  width: 100%;
+  height: 233px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.container .card__contents .card .card__top {
+  margin: 36px 0 18px;
+  color: #222;
+  font-family: Jaldi;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.19px;
+  text-transform: uppercase;
+}
+.container .card__contents .card .bold {
+  font-weight: 700;
+}
+.container .card__contents .card .card__title {
+  color: #222;
+  font-family: Merriweather;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 140%; /* 42px */
+}
+.container .card__contents .card .card__bottom {
+  margin: 18px 0 21px;
+  width: 411px;
+  color: #555;
+  font-family: Jaldi;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 27.2px */
+}
+.container .card__contents .card button {
+  color: #222;
+  font-family: Merriweather;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  cursor: pointer;
+  width: 180px;
+  height: 65px;
+  border-radius: 100px;
+  border: 2px solid #222;
+  background: rgba(255, 255, 255, 0);
 }/*# sourceMappingURL=style.css.map */

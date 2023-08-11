@@ -33,7 +33,7 @@ Read more
 in Love and Relationship on 12th Jan 2021  
 In Travel Tips on 12th Jan 2021  
 
-## main
+## main featured posts
 
 Featured Posts  
 All  
@@ -45,6 +45,7 @@ dating and Relationships
 How 'Weak Ties' Can Strengthen Our Relationships  
 What It's Really Like to Date While Fat  
 Benefits to Having Much Older Friends  
+Health tips  
 How Often You Should Wash Your Hair  
 5 Helpful Tips for Growing Healthy Succulents  
 

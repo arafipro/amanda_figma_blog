@@ -89,7 +89,6 @@
       margin: 0 54px;
       width: 25px;
       height: 14px;
-      flex-shrink: 0;
     }
   }
 
@@ -163,15 +162,6 @@
         color: #222;
       }
     }
-  }
-
-  img {
-    margin: 0 54px;
-    width: 25px;
-    height: 14px;
-    flex-shrink: 0;
-    /* ここから追加 */
-    fill: #222;
   }
 }
 

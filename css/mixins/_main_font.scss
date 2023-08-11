@@ -1,0 +1,40 @@
+@mixin card_p_top_font() {
+	margin: 36px 0 18px;
+	color: #222;
+	font-family: Jaldi;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	letter-spacing: 1.19px;
+	text-transform: uppercase;
+}
+
+@mixin card_p_bottom_font() {
+	margin: 18px 0 21px;
+	width: 411px;
+	color: #555;
+	font-family: Jaldi;
+	font-size: 17px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 160%; /* 27.2px */
+}
+
+@mixin card_title_font() {
+	color: #222;
+	font-family: Merriweather;
+	font-size: 30px;
+	font-style: normal;
+	font-weight: 300;
+	line-height: 140%; /* 42px */
+}
+
+@mixin card_button_font() {
+	color: #222;
+	font-family: Merriweather;
+	font-size: 17px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
