@@ -1,0 +1,68 @@
+@import "./mixins/_footer_font.scss";
+
+.footer {
+	margin: 0 auto;
+	padding-top: 123px;
+	max-width: 1612px;
+	height: 700px;
+	
+	.footer__content {
+		margin: 0 121px 71px 106px;
+		display: flex;
+		justify-content: space-between;
+
+		.footer__menu {
+			width: 631px;
+			display: flex;
+			justify-content: space-between;
+			
+			a {
+				@include footer_text_font();
+				text-transform: uppercase;
+			}
+		}
+		
+		p {
+			text-align: right;
+			@include footer_text_font();
+			
+			&:nth-child(1) {
+				font-weight: 700;
+			}
+		}
+		
+		.footer__address {
+			align-items: end;
+			display: flex;
+			flex-direction: column;
+
+			.sns_icons {
+				width: 151px;
+				display: flex;
+				justify-content: end;
+				margin-top: 26px;
+			}
+		}
+	}
+
+	.footer__credit {
+		padding-top: 33px;
+		margin: 0 auto;
+		border-top: 2px solid #F1F1F1;
+
+		p {
+			color: #747474;
+			text-align: center;
+			font-family: Jaldi;
+			font-size: 17px;
+			font-style: normal;
+			font-weight: 400;
+			line-height: 214%; /* 36.38px */
+			letter-spacing: 0.34px;
+			
+			span {
+				font-weight: 700;
+			}
+		}
+	}
+}

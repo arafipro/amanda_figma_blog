@@ -38,3 +38,87 @@
 	font-weight: 400;
 	line-height: normal;
 }
+
+@mixin posts_title_font() {
+	color: #222;
+	font-family: Inter;
+	font-size: 36px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	text-transform: capitalize;
+}
+
+@mixin posts_menu_font($color) {
+	color: $color;
+	text-align: center;
+	font-family: Merriweather;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 300;
+	line-height: normal;
+	letter-spacing: 0.32px;
+	text-transform: uppercase;
+}
+
+@mixin post_subtitle_font() {
+	color: #333;
+	font-family: Futura Bk BT;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 180%; /* 25.2px */
+	letter-spacing: 1.4px;
+	text-transform: uppercase;
+}
+
+@mixin post_title_font() {
+	color: #333;
+	font-family: Merriweather;
+	font-size: 28px;
+	font-style: normal;
+	font-weight: 300;
+	line-height: 130%; /* 36.4px */
+	// 単語の最初の文字を強制的に大文字に変換
+	text-transform: capitalize;
+}
+
+@mixin picutre_text_font() {
+	color: #FFF;
+	font-family: Merriweather;
+	font-size: 19px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 150%; /* 28.5px */
+}
+
+@mixin search_title_font() {
+	color: #333;
+	font-family: Merriweather;
+	font-size: 74px;
+	font-style: normal;
+	font-weight: 300;
+	line-height: 120%; /* 88.8px */
+	letter-spacing: -2px;
+}
+
+@mixin search_text_font() {
+	color: #777;
+	font-family: Jaldi;
+	font-size: 21px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 150%; /* 31.5px */
+}
+
+@mixin search_button_font() {
+	color: #FFF;
+	text-align: center;
+	font-family: Jaldi;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 24px; /* 150% */
+	letter-spacing: 3px;
+	text-transform: uppercase;
+}

@@ -10,9 +10,9 @@
   background-blend-mode: lighten;
 	
 	.header__menu {
+		display: flex;
 		justify-content: space-between;
 		margin-right: auto;
-		display: flex;
 		padding-top: 57px;
 		
 		div {
