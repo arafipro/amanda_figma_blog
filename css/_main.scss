@@ -138,7 +138,7 @@
 	@for $i from 1 through 5 {
 		div:nth-child(#{$i}) {
 			width: 100%;
-			background-image: url("/images/rect_image0#{$i}.jpeg");
+			background-image: url("../images/rect_image0#{$i}.jpeg");
 			background-size: cover;
 			@include picutre_text_font();
 			display: flex;

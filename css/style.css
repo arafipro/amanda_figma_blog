@@ -30,7 +30,7 @@ img {
 .header {
   width: 100%;
   height: 856px;
-  background-image: url("/images/hero_image.jpeg");
+  background-image: url("../images/hero_image.jpeg");
   background-position-x: center;
   background-position-y: 42%;
   background-color: rgba(255, 255, 255, 0.5);
@@ -280,7 +280,7 @@ img {
 }
 .pictures div:nth-child(1) {
   width: 100%;
-  background-image: url("/images/rect_image01.jpeg");
+  background-image: url("../images/rect_image01.jpeg");
   background-size: cover;
   color: #FFF;
   font-family: Merriweather;
@@ -297,7 +297,7 @@ img {
 }
 .pictures div:nth-child(2) {
   width: 100%;
-  background-image: url("/images/rect_image02.jpeg");
+  background-image: url("../images/rect_image02.jpeg");
   background-size: cover;
   color: #FFF;
   font-family: Merriweather;
@@ -314,7 +314,7 @@ img {
 }
 .pictures div:nth-child(3) {
   width: 100%;
-  background-image: url("/images/rect_image03.jpeg");
+  background-image: url("../images/rect_image03.jpeg");
   background-size: cover;
   color: #FFF;
   font-family: Merriweather;
@@ -331,7 +331,7 @@ img {
 }
 .pictures div:nth-child(4) {
   width: 100%;
-  background-image: url("/images/rect_image04.jpeg");
+  background-image: url("../images/rect_image04.jpeg");
   background-size: cover;
   color: #FFF;
   font-family: Merriweather;
@@ -348,7 +348,7 @@ img {
 }
 .pictures div:nth-child(5) {
   width: 100%;
-  background-image: url("/images/rect_image05.jpeg");
+  background-image: url("../images/rect_image05.jpeg");
   background-size: cover;
   color: #FFF;
   font-family: Merriweather;

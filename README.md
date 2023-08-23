@@ -1,5 +1,7 @@
 # 使用テンプレート
 
+<img src="ss-amanda-demo.png" width="600">
+
 https://templatesjungle.com/downloads/amanda-free-lifestyle-blog-figma-template/
 
 # 使用フォント
